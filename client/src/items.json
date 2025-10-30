@@ -1,0 +1,194 @@
+{
+    "Breakfast": [
+        {
+            "id": 1,
+            "item_name": "Chick-fil-A® Chicken Biscuit",
+            "item_cal": 460,
+            "price": 7.99,
+            "image": "/images/breakfast1.jpg"
+        },
+        {
+            "id": 2,
+            "item_name": "Spicy Chicken Biscuit",
+            "item_cal": 430,
+            "price": 7.99,
+            "image": "/images/breakfast2.jpg"
+        },
+        {
+            "id": 3,
+            "item_name": "Chick-fil-A Chick-n-Minis®",
+            "item_cal": 360,
+            "price": 7.99,
+            "image": "/images/breakfast3.jpg"
+        },
+        {
+            "id": 4,
+            "item_name": "Egg White Grill",
+            "item_cal": "300",
+            "price": 7.99,
+            "image": "/images/breakfast4.jpg"
+        },
+        {
+            "id": 5,
+            "item_name": "Hash Brown Scramble Burrito",
+            "item_cal": "700",
+            "price": 7.99,
+            "image": "/images/breakfast5.jpg"
+        }
+    ],
+    "Entrees": [
+        {
+            "id": 1,
+            "item_name": "Chick-fil-A® Chicken Sandwich",
+            "item_cal": 420,
+            "price": 7.99,
+            "image": "/images/entree1.jpg"
+        },
+         {
+            "id": 2,
+            "item_name": "Pretzel Cheddar Club",
+            "item_cal": 690,
+            "price": 7.99,
+            "image": "/images/entree2.jpg"
+        },
+         {
+            "id": 3,
+            "item_name": "Spicy Chicken Sandwich",
+            "item_cal": 450,
+            "price": 7.99,
+            "image": "/images/entree3.jpg"
+        },
+        {
+            "id": 4,
+            "item_name": "Chick-fil-A® Nuggets",
+            "item_cal": 250,
+            "price": 7.99,
+            "image": "/images/entree4.jpg"
+        }
+    ],
+    "Salads": [
+        {
+            "id": 1,
+            "item_name": "Cobb Salad",
+            "item_cal": 830,
+            "price": 7.99,
+            "image": "/images/salad1.jpg"
+        },
+        {
+            "id": 2,
+            "item_name": "Spicy Southwest Salad",
+            "item_cal": 680,
+            "price": 7.99,
+            "image": "/images/salad2.jpg"
+        },
+         {
+            "id": 3,
+            "item_name": "Market Salad",
+            "item_cal": 550,
+            "price": 7.99,
+            "image": "/images/salad3.jpg"
+        },
+         {
+            "id": 5,
+            "item_name": "Chipotle Bowl",
+            "item_cal": 900,
+            "price": 7.99,
+            "image": "/images/salad4.jpg"
+        }
+    ],
+    "Sides": [
+        {
+            "id": 1,
+            "item_name": "Chick-fil-A Waffle Potato Fries®",
+            "item_cal": 420,
+            "price": 7.99,
+            "image": "/images/side1.jpg"
+        },
+         {
+            "id": 2,
+            "item_name": "Fruit Cup",
+            "item_cal": 70,
+            "price": 7.99,
+            "image": "/images/side2.jpg"
+        },
+         {
+            "id": 3,
+            "item_name": "Side Salad",
+            "item_cal": 470,
+            "price": 7.99,
+            "image": "/images/side3.jpg"
+        }
+    ],
+    "Kids": [
+        {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/fruit1.jpg"
+        },
+        {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/fruit2.jpg"
+        },
+        {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/fruit3.jpg"
+        },
+        {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/fruit4.jpg"
+        },
+        {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/fruit5.jpg"
+        }
+    ],
+    "Treats": [
+        {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": ""
+        }
+    ],
+    "Beverages": [
+        {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/drink1.jpg"
+        },
+         {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/drink2.jpg"
+        },
+         {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/drink3.jpg"
+        },
+         {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/drink4.jpg"
+        },
+         {
+            "item_name": "",
+            "item_cal": "",
+            "price": 7.99,
+            "image": "/images/drink5.jpg"
+        }
+    ]
+}

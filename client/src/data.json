@@ -1,0 +1,55 @@
+{
+   "featured": [
+    {
+        "id": 1,
+        "name": "Breakfast",
+        "description": "Chicken for breakfast? Yes, please. If you've only visited us for lunch or dinner, you're missing our Hashbrowns, Burritos, Berry Parfait and more.",
+        "image": "/images/breakfast1.jpg",
+        "link": ""
+    },
+    {   "id": 2,
+        "name": "Salads",
+        "description": "Go green with these options, prepared fresh daily, and perk them up with our variety of dressings.",
+        "image": "/images/salad1.jpg",
+        "link": ""
+    },
+    {
+        "id": 3,
+        "name": "Sides",
+        "description": "An entrée without a side is like a day without sunshine. Whether you choose an old favorite like Waffle Fries or mix it up with something new like Mac & Cheese, make it a meal by adding a side.",
+        "image": "/images/fruit1.jpg",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "name": "Beverages",
+        "description": "Satisfy your thirst with a Sunjoy®, Lemonade, Iced Tea and more.",
+        "image": "/images/drink1.jpg",
+        "link": ""
+    },
+    {
+        "id": 5,
+        "name": "Treats",
+        "description": "You deserve a little something sweet. How does a Cherry Berry Frosted Lemonade, Chocolate Chunk Cookie or Fudge Brownie sound? ",
+        "image": "/images/side1.jpg",
+        "link": ""
+    }
+   ],
+   "featuredEntrees": [
+    {
+        "id": 3,
+        "name": "Sides",
+        "description": "Chick-fil-A Nuggets",
+        "image": "/images/fruit1.jpg",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "name": "Beverages",
+        "description": "Spicy Chicken Sandwich",
+        "image": "/images/drink1.jpg",
+        "link": ""
+    }
+   ]
+    
+}
