@@ -1,12 +1,12 @@
-import Nav from "./components/nav/nav"
+
 import Section from "./components/main/section"
 import data from "./data.json"
-import NavLinks from "./components/nav/navlinks"
-import SideMenu from "./components/nav/sideMenu"
 import Itemspage from "./pages/itemsPage"
+import Getstarted from "./pages/getStarted"
 import { useState } from "react"
 import { Routes, Route } from "react-router-dom"
 import items from "./items.json"
+import DefaultLayout from "./components/defaullayout"
 function App() {
   console.log(data.featured)
   console.log(data.featuredEntrees)
@@ -14,31 +14,18 @@ function App() {
   console.log(showSideNav)
   return (
     <div className="App">
-      <div className="wrapper">
-        <header className="border-b-gray-300 border-1 ">
-          <Nav 
+      <Routes>
+        <Route element={<DefaultLayout 
             setSideNav={setSideNav}
             showSideNav={showSideNav}
-          />
-        </header>
-        <NavLinks />
-        <main className={showSideNav ? "relative overflow-y-hidden": "border-b-black border-2 relative"}>
-           <SideMenu 
-              showSideNav={showSideNav}
-              setSideNav={setSideNav}
-          />
-            <Routes>
-              <Route path="/" element={<Section 
-                  cardData = {data.featured}
-                  featuredEntrees={data.featuredEntrees}
-              />} />
-              <Route path="/menu/:id" element={<Itemspage 
-                items={items}
-              />} />
-            </Routes>
-        </main>
-        <footer className="border-green-400 border">footer</footer>
-      </div>
+        />}>
+
+          <Route path="/" element={<Section cardData = {data.featured} featuredEntrees={data.featuredEntrees}/>} />
+          <Route path="/menu/:id" element={<Itemspage items={items}/>} />
+          <Route path="/order/getstarted" element={<Getstarted /> }/>
+
+        </Route>
+      </Routes>
     </div>
   )
 }

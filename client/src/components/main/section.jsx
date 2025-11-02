@@ -1,5 +1,6 @@
 import Card from "./card";
 const Section = ({cardData, featuredEntrees})=>{
+    console.log(cardData)
     return(
         <section className="w-11/12 m-auto ">
             <div className="text-center py-4">
