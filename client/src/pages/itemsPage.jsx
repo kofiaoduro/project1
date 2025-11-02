@@ -4,6 +4,7 @@ import ItemCard from "../components/main/itemsCard"
 const Itemspage = ({items})=>{
     const { id } = useParams()
     console.log(id)
+    console.log(items)
    // console.log(items[id])
     return(
         <section className="w-11/12 m-auto mt-4">
