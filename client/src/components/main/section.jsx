@@ -1,5 +1,5 @@
 import Card from "./card";
-const Section = ({cardData, featuredEntrees})=>{
+const Section = ({cardData, featuredEntrees,  secondaryProducts})=>{
     console.log(cardData)
     return(
         <section className="w-11/12 m-auto ">
@@ -11,6 +11,7 @@ const Section = ({cardData, featuredEntrees})=>{
                 <Card 
                     cardData={cardData}
                     featuredEntrees={featuredEntrees}
+                     secondaryProducts={ secondaryProducts}
                 />
             </div>
         </section>

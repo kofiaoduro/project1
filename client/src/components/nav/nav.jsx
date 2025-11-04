@@ -3,7 +3,7 @@ import { SiKfc } from 'react-icons/si';
 import { HiXMark } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
 const Nav = ({ setSideNav, showSideNav})=>{
-    console.log(showSideNav)
+   // console.log(showSideNav)
     return(
         <div className='flex justify-between items-center w-11/12 m-auto py-4 '>
             {showSideNav ? (<HiXMark size={40} style={{ color: '#E51636' }} onClick={()=>setSideNav(!showSideNav)} className='md:hidden'/>):(<HiBars3 size={40} style={{ color: '#E51636' }} onClick={()=>setSideNav(!showSideNav)} className='md:hidden'/>)}
