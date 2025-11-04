@@ -14,7 +14,7 @@ const Nav = ({ setSideNav, showSideNav})=>{
                 <Link to={''}>About</Link>
                 <Link to={''}>Careers</Link>
             </div>
-            <a href='/' style={{color: '#E51636'}} className='font-bold'>Order Now</a>
+            <Link  to='/order/getstarted' style={{color: '#E51636'}} className='font-bold'>Order Now</Link>
         </div>
     )
 }
